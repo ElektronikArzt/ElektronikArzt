@@ -17,7 +17,7 @@ function stalkDICE_refresh() {
 	handler();
 }
 function stalkDICE_start(){
-	$(".comcenter-add-friend").before('<li id="comcenter-dice-separator" class="comcenter-separator"><div class="base-left"> playing DICE employees <img src="http://www.pun1a.net/bblog_plugins/refresh.png" onclick="stalkDICE_refresh()" style="cursor:pointer;"/></div></li>');
+	$(".comcenter-add-friend").before('<li id="comcenter-dice-separator" class="comcenter-separator"><div class="base-left"> Jamx <img src="http://www.pun1a.net/bblog_plugins/refresh.png" onclick="stalkDICE_refresh()" style="cursor:pointer;"/></div></li>');
 	$.get("http://battlelog.battlefield.com/bf3/de/platoon/2832655241139581060/listmembers/",function(html){
 		var dicePlayer = $(html).find("a.base-avatar-status-overlay-playing"),
         count = dicePlayer.length;
