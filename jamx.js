@@ -18,7 +18,7 @@ function stalkDICE_refresh() {
 }
 function stalkDICE_start(){
 	$(".comcenter-add-friend").before('<li id="comcenter-dice-separator" class="comcenter-separator"><div class="base-left"> Jamx <img src="http://www.pun1a.net/bblog_plugins/refresh.png" onclick="stalkDICE_refresh()" style="cursor:pointer;"/></div></li>');
-	$.get("http://battlelog.battlefield.com/bf3/de/user/EBassie/",function(html){
+	$.get("http://battlelog.battlefield.com/bf3/de/user/Strikeman34/#!/bf3/de/soldier/Strikeman34/stats/415768052/",function(html){
 		var dicePlayer = $(html).find("a.base-avatar-status-overlay-playing"),
         count = dicePlayer.length;
 		$(dicePlayer).each(function() {
